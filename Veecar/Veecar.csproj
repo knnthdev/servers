@@ -64,15 +64,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\..\..\..\Users\Lenovo\source\repos\Ticker\Ticker\Utils.cs">
-      <Link>Utils.cs</Link>
-    </Compile>
     <Compile Include="Asyncronizer.cs" />
     <Compile Include="IServe.cs" />
     <Compile Include="Pragma.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Serve.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig">
@@ -98,6 +96,7 @@
     </PreBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
-    <PostBuildEvent>xcopy /y "$(TargetPath)" "C:\Lenovo\User\source\repos\WEB\Antecesor\flutter\examples\hello_world\lib"</PostBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
   </PropertyGroup>
 </Project>
