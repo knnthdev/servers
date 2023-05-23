@@ -9,7 +9,6 @@ namespace Antecesor
     internal static class Program
     {
         internal static Form1 form1;
-        internal static Form2 form2;
     
         /// <summary>
         /// Punto de entrada principal para la aplicación.
